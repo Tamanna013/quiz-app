@@ -36,9 +36,6 @@ export const Wrapper=style.div`
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        moz-background-clip: text;
-        -moz-text-fill-color: transparent;
-        filter: drop-shadow(2px 2px #0085A3);
         font-size: 70px;
         text-align: center;
         margin: 20px;

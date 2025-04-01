@@ -17,7 +17,7 @@ const QCard: React.FC<Props> = ({question, answers, callback, userAnswer, questi
         <p className="number">
             Question: {questionNo}/{totalQuestions}
         </p>
-        <p dangerouslySetInnerHTML={{__html: question}}>
+        <div dangerouslySetInnerHTML={{__html: question}}>
             <div>
                 {answers.map(answer => (
                     <ButtonWrapper key={answer} $correct={userAnswer?.correctAnswer===answer} $userClicked={userAnswer?.answer===answer}>
@@ -27,7 +27,7 @@ const QCard: React.FC<Props> = ({question, answers, callback, userAnswer, questi
                     </ButtonWrapper>
                 ))}
             </div>
-        </p>
+        </div>
     </Wrapper>
 );
 export default QCard

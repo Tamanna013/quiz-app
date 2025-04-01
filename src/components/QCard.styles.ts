@@ -37,6 +37,6 @@ export const ButtonWrapper=style.div<ButtonWrapperProps>`
         box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         color: #FFF;
-        text-sadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+        text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
     }
 `;
